@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    /* defining color palette */
+    --color-bg: #d1d9cf;
+    --color-secondary: #3D0814;
+    --color-terciary: #423B0B;
+    --color-success: #AE610A;
+    --color-primary: #184377;
+
+    line-height: 1.15;
+
+    --spacing-small: 20px;
+    --spacing-medium: 40px;
+    --spacing-large: 60px;
+
+    background-color: var(--color-bg);
+}
+
+/* Text and Colors */
+.text-primary {
+    color: var(--color-primary);
+  }
+.text-secondary {
+    color: var(--color-secondary);
+}
+.background-color {
+    background-color: var(--color-bg);
+}
+.text-normal {
+    color: var(--color-primary);
+}
+.background-normal {
+    background-color: var(--color-normal);
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 500;
+}
+.font-headings {
+    font-family: "Madimi One", sans-serif;
+    color: var(--color-primary)
+}
+.font-text {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Elements */
+h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    font-style: normal;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--color-primary)
+}
+
+p,
+li {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 1.15;
+    margin: .5;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-normal {
+    color: var(--color-primary);
+    background-color: var(--color-normal);
+}
+
+.btn-success {
+    color: var(--color-bg);
+    background-color: var(--color-success);
+}
+
+.btn-disabled {
+    color: var(--color-bg);
+    background-color: var(--color-disabled);
+}
+
+.btn-error {
+    color: var(--color-bg);
+    background-color: var(--color-error);
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+    height: 50%;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-center {
+    border-radius: 10px;
+    height: auto;
+    max-width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+}
+
+a {
+    color: var(--color-secondary);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+input, label {
+    width: 50%;
+    border-color: var(--color-success);
+    border-width: 3.5px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.input-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-spacing {
+    padding: 20px;
+}
+.medium-spacing {
+    padding: 40px;
+}
+.large-spacing {
+    padding: 60px;
+}
+
+.brewery-information {
+    text-indent: 20px;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.link {
+    font-style: italic;
+    text-indent: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
